@@ -2,9 +2,7 @@ def find_no_repeats(line, num_characters):
     length = len(line)
 
     for i in range(length - num_characters + 1):
-        #print(i)
         x = set(line[i:i+num_characters])
-        #print(x)
         if len(x) == num_characters:
             return i + num_characters
             break
