@@ -1,2 +1,5 @@
-msg = "Hello World"
-print(msg)
+file = open('inputs\day_8_example.txt', 'r')
+lines = file.readlines()
+
+
+file.close
